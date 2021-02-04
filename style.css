@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+#timepass{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/5/unsplash-bonus.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav h1{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'monserrat';
+    color:#341A0c;
+    padding-left: 80px;
+
+        
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    margin-left: 30px;
+}
+#links a{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: 'monserrat';
+    color: #341A0c;
+    cursor: pointer;
+    margin-left: 18px;
+    text-decoration: none;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#links a:nth-child(1){
+    margin-left: 0px;
+    border-bottom: 2px solid rgb(100, 57, 34);
+    padding-bottom: 2px;
+    width: 157px;
+    
+
+}
+    
+
+
+#text{
+    margin-left: 40px;
+    margin-top: 180px;
+    padding: 6px 20px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'montserrat';
+    color:#341A0c;
+    animation-name: animate 20s span infinite;
+   
+
+    
+}
+
+#text button{
+    margin-top: 15px;
+    padding: 8px 17px;
+    margin-left: 6px;
+    color: #341A0c;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}    
+#text button:hover{
+    color: rgb(206, 161, 137);
+}
+
+    
+    
+   
+    
+
+#arrivals{
+    width: 100%;
+    height: 450px;
+    background-color:rgb(207, 201, 201);
+}
+#container{
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 70px; 
+    background-color:transparent;
+    font-weight: 300;
+    font-size: 20px;
+    
+   
+}
+#container h1{
+    font-family: 'montserrat';
+    color: #341A0c;
+
+}
+#showcase{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    margin-top: 16px;
+}
+.circleshowcase{
+    width: 325px;
+    height: 247px;
+    border: 6px solid white;
+    margin-left: 25px;
+}
+#onej{
+    background-image: url(http://barista.co.in/wp-content/uploads/2019/12/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#twoj{
+    background-image: url(http://barista.co.in/wp-content/uploads/2019/12/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#threej{
+    background-image: url(http://barista.co.in/wp-content/uploads/2019/12/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#fourj{
+    background-image: url(http://barista.co.in/wp-content/uploads/2019/10/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#jewels{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1503481766315-7a586b20f66d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#jewellery{
+    width: 100%;
+    height: 83px;
+    background-color: transparent;
+}
+#office{
+    width: 100%;
+    height: 200px;
+    font-family: 'montserrat';
+    padding-top: 20px;
+    padding-left: 60px;
+}
+#office h1{
+    font-size: 45px;
+    font-weight: 1500;
+}
+#office p{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+#office button{
+    margin-top: 20px;
+    padding: 8px 14px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'montserrat';
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 15px;
+    color: #341A0c;
+}
+#office button:hover{
+    color: rgb(156, 115, 93);
+}
+#menu{
+    width: 100%;
+    height: 650px;
+    background-color:#CFC9C9;
+
+}
+#menu h1{
+    font-family: 'montserrat';
+    color: rgb(87, 52, 33);
+    padding-top: 200px;
+    padding-left: 60px;
+}
+#menu p{
+    font-family: 'montserrat';
+    color: rgb(100, 62, 41);
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 60px;
+    margin-top: 10px;
+
+}
+#menu button{
+     margin-left: 60px;
+     padding: 8px 32px;
+     margin-top: 25px;
+     border-radius: 7px;
+     border: none;
+     background-color: rgb(87, 52, 33) ; 
+     color: #CFC9C9;  
+     outline: none;   
+
+}
+#menu button:hover{
+    color: rgb(168, 123, 99);
+}
+
+#showcase2{  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    margin-top: 16px;
+    
+   
+}
+.circleshowcase2{
+    margin-top: 10px;
+    width:320px;
+    height: 220px;
+    border: 8.5px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+#onew{
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/assets.limetray.com/assets/user_images/content_images/cropped/14_1423484716.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#twow{
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/assets.limetray.com/assets/user_images/content_images/cropped/Smal_1423996844.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#threew{
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/assets.limetray.com/assets/user_images/content_images/cropped/15_1423484834.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#fourw{
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/assets.limetray.com/assets/user_images/content_images/cropped/1_1423913954.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#footer{
+    width: 100%;
+    height: 350px;
+    background-color:rgb(116, 86, 70);
+}
+.footer-content{
+    width: 100%;
+    
+    height: 350px;
+    display: flex;
+    position: relative;
+   
+    
+
+}
+.footer-content .footer-section{
+    border:0.4px solid white;
+    flex: 1;
+}
+.footer-content h1,
+.footer-content h2{
+    margin-top: 25px;
+    font-family: "montserrat";
+    margin-left: 10px;
+    color: rgb(53, 31, 19);
+}
+.footer-content .about p{
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(53, 31, 19);
+}
+.footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(53, 31, 19);;
+}
+.footer-content .about .socials a{
+    outline: none;
+    
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    margin-top: 11px;
+    transition: all .3s;
+    margin-left: 10px;
+    color: rgb(53, 31, 19);
+    
+
+}
+.footer-content .about .socials a:hover{
+    color: rgb(172, 121, 94);
+    transition: all .3s;
+}
+.footer-content .links ul a{
+    display: block;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-family: "montserrat";
+    color: rgb(53, 31, 19);
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: all.3s;
+    
+}
+.footer-content .links ul a:hover{
+    margin-right: 15px;
+    transition: all.3s;
+    color: rgb(175, 127, 101);
+}
+
+    
+
+.footer-content .contact-form textarea{
+    
+     
+     width: 70%;
+     height: 180px;
+     margin-left: 20px;
+     background-color: rgb(116, 86, 70);
+     color: white;
+     outline: none;
+     border: none;
+     font-size: 15px;
+     font-weight: 700;
+}
+.footer-content .contact-form textarea:focus{
+    background-color: rgb(68, 48, 37);
+    cursor: pointer;
+}
+
+.footer-content .contact-form button{
+    margin-top: 20px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 13%;
+    left: 67%;
+   background-color: rgb(87, 62, 48);
+   color: white;
+   border: none;
+
+}
+.footer-content .contact-form button:hover{
+    color: rgb(182, 109, 70);
+}
+
+
+
+
+    
